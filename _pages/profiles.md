@@ -196,6 +196,9 @@ nav_order: 7
         </div>
       </div>
       
+
+
+
       <div class="col-md-4">
         <div class="member-card">
           <div class="member-avatar">
@@ -223,7 +226,10 @@ nav_order: 7
           </div>
         </div>
       </div>
-      
+
+
+
+
       <!-- You can add more members by duplicating the col-md-4 div above -->
       <!-- For example: -->
       <!-- 

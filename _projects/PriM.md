@@ -118,7 +118,7 @@ body {
 <div class="row">
     <div class="col-md-12">
         <div class="mb-4">
-            <img src="/assets/img/prim.png" alt="PriM Framework Overview" class="img-fluid">
+            <img src="/assets/img/project_prim/schema.png" alt="PriM Framework Overview" class="img-fluid">
         </div>
     </div>
 </div>
@@ -164,7 +164,7 @@ body {
     <div class="col-lg-12">
         <h2 class="section-title">Case Study: Nano Helix Material Discovery</h2>
         <div class="mb-4">
-            <img src="/assets/img/prim_case_study.png" alt="Nano Helix Case Study" class="img-fluid">
+            <img src="/assets/img/project_prim/case_study.png" alt="Nano Helix Case Study" class="img-fluid">
             <p class="figure-caption">PriM applied to nano helix material discovery, demonstrating iterative agent collaboration and significant property improvements.</p>
         </div>
         <p>
