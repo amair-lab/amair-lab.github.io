@@ -145,6 +145,21 @@ nav_order: 7
     margin-left: 10px;
     vertical-align: middle;
   }
+
+  .card-container{
+    margin-bottom: 30px
+  }
+
+  .alumni{
+    padding-left: 20px;
+    display: contents;
+  }
+
+  .al-list {
+    border-left: 5px solid #b509ac;
+    margin-bottom: 10px;
+    padding-left: 8px;
+  }
   
   /* For mobile devices */
   @media (max-width: 768px) {
@@ -156,6 +171,10 @@ nav_order: 7
       flex-direction: column;
       gap: 10px;
     }
+
+    .card-container{
+      margin-bottom: 15px;
+    }
   }
 </style>
 
@@ -166,20 +185,17 @@ nav_order: 7
   <!-- Lab Members Section -->
   <div class="team-category">
     <h2 class="category-title">Lab Members</h2>
-    
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 card-container">
         <div class="member-card">
           <div class="member-avatar">
-            <!-- If you have an image, use this line instead of the div below -->
-            <!-- <img src="/assets/img/members/mellen-pu.jpg" alt="Mellen Y. Pu"> -->
-            <div class="member-initial">M</div>
+            <img src="/assets/img/members/me.png" alt="Mellen Y. Pu">
           </div>
           <div class="member-info">
             <h3 class="member-name">Mellen Y. Pu <span class="leader-badge">Lab Leader</span></h3>
             <div class="member-role">Lab Leader</div>
             <div class="member-bio">
-              Language models for scientific discovery
+              Agentic scientific discovery
             </div>
             <div class="member-links">
               <a href="https://dandelionym.github.io/" class="member-link" target="_blank">
@@ -195,50 +211,39 @@ nav_order: 7
           </div>
         </div>
       </div>
-      
-
-
-
-      <div class="col-md-4">
+      <div class="col-md-4 card-container">
         <div class="member-card">
           <div class="member-avatar">
-            <!-- If you have an image, use this line instead of the div below -->
-            <!-- <img src="/assets/img/members/zheyuan-lai.jpg" alt="Ryan Zheyuan Lai"> -->
-            <div class="member-initial">R</div>
+            <img src="/assets/img/members/image.png" alt="Pet.">
           </div>
           <div class="member-info">
-            <h3 class="member-name">Ryan Zheyuan Lai</h3>
+            <h3 class="member-name">Moon</h3>
             <div class="member-role">Core Member</div>
             <div class="member-bio">
-              Research focus on multi-agent systems
+              Peace and Love. 
             </div>
             <div class="member-links">
-              <a href="https://zheyuanlai.github.io/" class="member-link" target="_blank">
+              <a href="#" class="member-link" target="_blank">
                 <i class="fas fa-globe"></i> Website
               </a>
               <a href="#" class="member-link">
                 <i class="fas fa-envelope"></i> Email
               </a>
-              <a href="https://github.com/zheyuanlai" class="member-link" target="_blank">
+              <a href="" class="member-link" target="_blank">
                 <i class="fab fa-github"></i> GitHub
               </a>
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-      <!-- You can add more members by duplicating the col-md-4 div above -->
-      <!-- For example: -->
-      <!-- 
-      <div class="col-md-4">
-        <div class="member-card">
-          ... Next member content ...
-        </div>
-      </div>
-      -->
+    </div>
+  </div>
+  <!-- Alumni -->
+    <div class="team-category">
+    <h2 class="category-title">Alumni / Collaborators</h2>
+    <div class="row alumni">
+      <div class="al-list"><b>Ryan Zheyuan Lai</b>, 2024-2025, NUS.</div>
+      <div class="al-list"><b>Heze Zhang</b>, 2025-now, CUP.</div>
     </div>
   </div>
 </div>
