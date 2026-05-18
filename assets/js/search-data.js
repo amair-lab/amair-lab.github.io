@@ -33,7 +33,15 @@ ninja.data = [{
         },{id: "news-our-recent-work-prim-has-been-accepted-to-ai4mat-at-iclr-2025",
           title: 'Our recent work PriM has been accepted to AI4Mat at ICLR 2025!',
           description: "",
-          section: "News",},{id: "projects-prim",
+          section: "News",},{id: "news-our-pievo-has-been-accepted-by-icml-2026",
+          title: 'Our PiEvo has been accepted by ICML 2026!',
+          description: "",
+          section: "News",},{id: "projects-pievo",
+          title: 'PiEvo',
+          description: "Principle-Evolvable Scientific Discovery via Uncertainty Minimization.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PiEvo/";
+            },},{id: "projects-prim",
           title: 'PriM',
           description: "We introduce a hypothesis-validation framework with language model-based multi-agent system for scientific discovery.",
           section: "Projects",handler: () => {
