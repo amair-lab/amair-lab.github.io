@@ -57,7 +57,7 @@ nav_order: 7
   
   .member-avatar {
     width: 100%;
-    height: 150px;
+    height: 220px;
     overflow: hidden;
     position: relative;
     background-color: #f5f7fa;
@@ -189,7 +189,7 @@ nav_order: 7
       <div class="col-md-4 card-container">
         <div class="member-card">
           <div class="member-avatar">
-            <img src="/assets/img/members/me.png" alt="Mellen Y. Pu">
+            <img src="/assets/img/members/me.jpg" alt="Mellen Y. Pu">
           </div>
           <div class="member-info">
             <h3 class="member-name">Mellen Y. Pu <span class="leader-badge">Lab Leader</span></h3>
@@ -214,16 +214,16 @@ nav_order: 7
       <div class="col-md-4 card-container">
         <div class="member-card">
           <div class="member-avatar">
-            <img src="/assets/img/members/image.png" alt="Pet.">
+            <img src="/assets/img/members/moon.png" alt="Pet.">
           </div>
           <div class="member-info">
-            <h3 class="member-name">Moon</h3>
-            <div class="member-role">Core Member</div>
+            <h3 class="member-name">Sandy & Moon</h3>
+            <div class="member-role">Core Members</div>
             <div class="member-bio">
               Peace and Love. 
             </div>
             <div class="member-links">
-              <a href="#" class="member-link" target="_blank">
+              <!-- <a href="#" class="member-link" target="_blank">
                 <i class="fas fa-globe"></i> Website
               </a>
               <a href="#" class="member-link">
@@ -231,7 +231,7 @@ nav_order: 7
               </a>
               <a href="" class="member-link" target="_blank">
                 <i class="fab fa-github"></i> GitHub
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
